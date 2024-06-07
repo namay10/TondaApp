@@ -4,6 +4,7 @@ import { BiMessageDetail } from "react-icons/bi";
 import Card from './Card.jsx';
 import MessgForm from './MessgForm.jsx';
 import { ReactTyped } from 'react-typed';
+import { TypeAnimation } from 'react-type-animation';
 
 function Home() {
   const [isFormVisible, setIsFormVisible] = useState(false);
@@ -21,17 +22,25 @@ function Home() {
     <div className="md:w-1/2 mx-10">
       {/* ... your button code ... */}
       <h1 className="text-3xl md:text-3xl font-bold " style={{ color: "#707070" }}>About Us</h1>
-      <div className="flex flex-col">  <h1 className="text-6xl md:text-5xl font-bold text-abouttext mt-6">
-          C
-          <ReactTyped
-            strings={["reate, Connect, Experience!"]}
+      <div className="flex flex-col">  
+        <h1 className="text-5xl mfont-bold text-abouttext mt-6">
+           
+          {/* <ReactTyped
+            strings={["Create", "Connect", "Experience!"]}
             typeSpeed={50}
             loop
             backSpeed={20}
             cursorChar=""
             showCursor={true}
-          />
+          /> */}
+          <TypeAnimation
+              sequence={['Create', 500, 'Connect', 500, 'Experience!', 500]}
+              style={{ fontSize: '3rem' }}
+              repeat={Infinity}
+              
+/>
         </h1>
+        
         <p className="mt-6 text-gray-600 text-justify text-lg mr-8">
           Tonda is a platform at the intersection of technology and marketing, connecting users and vendors of physical entertainment, creativity and recreation.
         </p>

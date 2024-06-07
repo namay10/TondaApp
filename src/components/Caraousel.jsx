@@ -27,7 +27,7 @@ export default function Carousel({
       >
         {photos.map((photo, index) => (
           <div key={index} className="min-w-full flex flex-col items-center">
-            <img src={photo.src} alt="" className="mt-3 size-fit h-[75%]  object-cover" />
+            <img src={photo.src} alt="" className="mt-3 size-fit w-[50%] h-[75%]  object-cover" />
             {/* <img src={s1} alt="" className="mt-3 size-fit object-cover" /> */}
             <p className="mt-2 text-center text-xl text-black font-serif ">
               <i>
@@ -37,7 +37,7 @@ export default function Carousel({
           </div>
         ))}
       </div>
-      <div className="absolute inset-0 flex items-center justify-between p-2">
+      <div className="hidden md:flex absolute inset-0  items-center justify-between p-2">
         <button
           onClick={prev}
           className="p-1 rounded-full  bg-card/80 text-gray-800 hover:bg-white"

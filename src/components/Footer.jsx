@@ -28,7 +28,7 @@ function Footer() {
           <a href="#" className="flex  items-center space-x-2">
             <FaInstagram size={24} /> <span>Instagram</span>
           </a>
-          <a href="#" className="flex  items-center space-x-2">
+          <a href="https://www.linkedin.com/company/tonda-ventures/" className="flex  items-center space-x-2" target='_blank'>
             <FaLinkedin size={24} /> <span>LinkedIn</span>
           </a>
           {/* <a href="#" className="flex  items-center space-x-2">
@@ -58,7 +58,7 @@ function Footer() {
 
         {/* Subscribe section */}
         <div className="space-y-4">
-          <h2 className="text-xl font-bold">Subscribe</h2>
+          <h2 className="text-xl font-bold">Subscribe to our <span className='text-abouttext'>Newsletter</span></h2>
           <form ref={form} onSubmit={sendemail}>
           <div className="flex items-center max-w-xs">
           
