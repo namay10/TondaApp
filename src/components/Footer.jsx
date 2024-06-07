@@ -25,7 +25,7 @@ function Footer() {
         {/* Social buttons */}
         <div className="space-y-4">
           <h2 className="text-xl font-bold">Socials</h2>
-          <a href="#" className="flex  items-center space-x-2">
+          <a href="https://www.instagram.com/tonda_app/" className="flex  items-center space-x-2" target='_blank'>
             <FaInstagram size={24} /> <span>Instagram</span>
           </a>
           <a href="https://www.linkedin.com/company/tonda-ventures/" className="flex  items-center space-x-2" target='_blank'>
@@ -34,7 +34,7 @@ function Footer() {
           {/* <a href="#" className="flex  items-center space-x-2">
             <FaFacebook size={24} /> <span>Facebook</span>
           </a> */}
-          <a href="#" className="flex  items-center space-x-2">
+          <a href="https://x.com/TheTondaApp" className="flex  items-center space-x-2" target='_blank'>
             <FaXTwitter size={24} /> <span>X</span>
           </a>
         </div>
@@ -44,15 +44,15 @@ function Footer() {
           <h2 className="text-xl font-bold">Get in touch</h2>
           <div className="flex items-center space-x-2">
             <FaPhone size={20} />
-            <a href="#">+256 776920408</a>
+            <a href="tel:+256758212070">+256 758 212070</a>
           </div>
           <div className="flex items-center space-x-2">
             <FaEnvelope size={20} />
-            <a href="#">admin@tondaapp.com</a>
+            <a href="mailto:admin@tondaapp.com">admin@tondaapp.com</a>
           </div>
           <div className="flex items-center space-x-2">
             <FaWhatsapp size={20} />
-            <a href="#">+256 776920408</a>
+            <a href="https://wa.me/+256776920408" target='_blank'>+256 776920408</a>
           </div>
         </div>
 
@@ -81,7 +81,7 @@ function Footer() {
       </div>
       <div className="text-center mt-8">
         <img src={tondalogo1} alt="Tonda Logo" className="mx-auto w-24 mb-3" />
-        <p>&copy; 2024 Tonda. All Rights Reserved.</p>
+        <p>&copy; 2024 Tonda Ventures. All Rights Reserved.</p>
       </div>
     </footer>
   );

@@ -15,7 +15,7 @@ const Socials = () => {
     setIsFormVisible(false);
   };
   const openwhatapp=()=>{
-    window.open('https://api.whatsapp.com/send?phone=+256776920408', '_blank');
+    window.open('https://wa.me/+256758212070', '_blank');
   }
   const buttons = [
     {

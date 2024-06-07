@@ -16,6 +16,9 @@ function Home() {
   const handleCloseForm = () => {
     setIsFormVisible(false);
   };
+  const openwhatsappp=()=>{
+    window.open('https://wa.me/+256758212070', '_blank');
+  }
 
   return (
     <div className="flex flex-col md:flex-row md:items-center md:justify-between bg-gray-50">
@@ -50,7 +53,7 @@ function Home() {
         
 
         <div className="lg:hidden mt-10 -ml-3 flex flex-col space-y-4 w-full sm:w-auto">
-          <button className="flex items-center justify-center bg-green-500 hover:bg-green-600 transition-colors text-white w-full sm:w-1/2 lg:w-1/3 px-6 py-3 rounded-lg shadow-md">
+          <button className="flex items-center justify-center bg-green-500 hover:bg-green-600 transition-colors text-white w-full sm:w-1/2 lg:w-1/3 px-6 py-3 rounded-lg shadow-md" onClick={openwhatsappp}>
             <FaWhatsapp size={24} />
             <span className="ml-2 text-lg">WhatsApp</span>
           </button>
