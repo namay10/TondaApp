@@ -19,7 +19,7 @@ function MessgForm({ isVisible, onClose }) {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    emailjs.sendForm('service_tpd37j3', 'template_2uvz4cf', e.target, 'Ca1ZBq_0F_4nEh7w4')
+    emailjs.sendForm('service_77e93by', 'template_acxjtg1', e.target, '3CojdPVstX46taHuy')
       .then((result) => {
         onClose();
       }, (error) => {
