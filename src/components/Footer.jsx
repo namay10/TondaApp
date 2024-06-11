@@ -43,16 +43,16 @@ function Footer() {
         <div className="space-y-4">
           <h2 className="text-xl font-bold">Get in touch</h2>
           <div className="flex items-center space-x-2">
-            <FaPhone size={20} />
+            <FaPhone size={25} />
             <a href="tel:+256758212070">+256 758 212070</a>
           </div>
           <div className="flex items-center space-x-2">
-            <FaEnvelope size={20} />
+            <FaEnvelope size={25} />
             <a href="mailto:admin@tondaapp.com">admin@tondaapp.com</a>
           </div>
           <div className="flex items-center space-x-2">
-            <FaWhatsapp size={20} />
-            <a href="https://wa.me/+256776920408" target='_blank'>+256 776920408</a>
+            <FaWhatsapp size={25} />
+            <a href="https://wa.me/+256758212070" target='_blank'>+256 758 212070</a>
           </div>
         </div>
 
