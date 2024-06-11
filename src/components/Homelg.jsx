@@ -29,7 +29,7 @@ function HomeLg() {
       {/* ... your button code ... */}
       <h1 className="text-3xl md:text-3xl font-bold " style={{ color: "#707070" }}>About Us</h1>
       <div className="flex flex-col">  
-        <h1 className="text-5xl mfont-bold text-abouttext mt-6">
+        <h1 className="text-5xl font-bold text-abouttext mt-6">
            
           {/* <ReactTyped
             strings={["Create", "Connect", "Experience!"]}
@@ -47,10 +47,19 @@ function HomeLg() {
 />
         </h1>
         
-        <p className="mt-6 text-gray-600 text-justify text-lg mr-8">
-          Tonda is a platform at the intersection of technology and marketing, connecting users and vendors of physical entertainment, creativity and recreation.
+        <p className="mt-6 text-gray-600 text-justify font-sans text-lg mr-8"   >
+        {/* Tonda is here to do two things:
+            <br />- Keep you up to date with hangouts in Kampala
+            <br />- Have fun along the way!
+            <br />
+            Kampala is the most exciting city when it comes to entertainment and vibes. But it's hard to keep up with what’s happening where and when!
+            <br /><br />
+            That's what Tonda is for - your guide on what's happening, where, when and how - all you have to do is decide and go.
+          </p> */}
+          Tonda is your social guide to the exciting and vibrant community in Kampala. 
+          We tell you what's happening, where, when and how - all you have to do is decide and go.
+           Use Tonda with friends to find your favourite entertainers, creatives or educators at spots that match your vibe.
         </p>
-        
       </div>
     
       <div className='md:w-1/2 relative ml-auto mr-5 mt-10' >

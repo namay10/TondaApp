@@ -50,11 +50,11 @@ function Card() {
       <div className="max-w-lg">
         <Carousel autoSlide={true} photos={photos} />
       </div>
-      <div className="lg:hidden  -ml-3 flex flex-row  w-full sm:w-auto">
-          <button className="flex items-center justify-center bg-green-500 hover:bg-green-600 transition-colors text-white  w-1/6 h-16 px-6 py-3 rounded-lg shadow-md" onClick={openwhatsappp}>
+      <div className="lg:hidden  flex flex-row  w-full sm:w-auto ">
+          <button className="flex items-center justify-center bg-green-500  hover:bg-green-600 transition-colors text-white  w-1/6 h-16 px-6 py-3 rounded-lg shadow-md" onClick={openwhatsappp}>
             <FaWhatsapp size={24} />
           </button>
-          <button className="flex items-center justify-center bg-blue-500 hover:bg-blue-600 transition-colors text-white w-1/6 h-16 px-6 py-3 rounded-lg shadow-md" onClick={handleOpenForm}>
+          <button className="flex items-center justify-center bg-blue-500 mx-1 hover:bg-blue-600 transition-colors text-white w-1/6 h-16 px-6 py-3 rounded-lg shadow-md" onClick={handleOpenForm}>
             <BiMessageDetail size={24} />
             
           </button>

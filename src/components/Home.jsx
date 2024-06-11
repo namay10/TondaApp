@@ -5,10 +5,10 @@ function Home() {
   return (
     
     <div>
-      <div className='hidden lg:block'>
+      <div className='hidden md:block'>
         <HomeLg/>
       </div>
-      <div className='block lg:hidden'>
+      <div className='block md:hidden'>
         <HomeSm/>
       </div>
     </div>

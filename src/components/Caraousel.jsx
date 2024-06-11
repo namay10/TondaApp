@@ -29,10 +29,12 @@ export default function Carousel({
           <div key={index} className="min-w-full flex flex-col items-center">
             <img src={photo.src} alt="" className="mt-3 w-[55%] size-fit h-[80%] overflow-hidden" />
             {/* <img src={s1} alt="" className="mt-3 size-fit object-cover" /> */}
-            <p className="mt-2 text-center text-xl text-black font-serif ">
+            <p className="mt-2 text-center  text-xl text-black  ">
+              <b>
               <i>
                 {photo.description}
             </i>
+            </b>
             </p>
           </div>
         ))}

@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ps from"../images/ps.jpg"
 function SmallCard() {
   return (
         <div className="bg-card  rounded-xl shadow-lg flex flex-col h-full items-center  w-auto md:flex-1">
@@ -17,7 +17,9 @@ function SmallCard() {
             <a href="https://play.google.com/store/apps/details?id=com.tonda.mobile.app"
             className="bg-[#494949] text-white mt-2 px-4 mx-8 py-2 rounded-lg mb-5"
             target='_blank'
-            >Download for iOS</a>
+            >Download for iOS
+              {/* <img src={} alt="" /> */}
+              </a> 
           </div>
         </div>
       

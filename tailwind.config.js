@@ -15,7 +15,10 @@ export default {
      screens: {
       'xs':'320px',
       'mds':'770'
-     }
+     },
+     fontFamily: {
+      sans: ['"Segoe UI"']
+    }
     },
   },
   plugins: [],

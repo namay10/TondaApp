@@ -33,7 +33,7 @@ function HomeSm() {
       {/* ... your button code ... */}
       <h1 className="text-3xl md:text-3xl font-bold " style={{ color: "#707070" }}>About Us</h1>
       <div className="flex flex-col">  
-        <h1 className="text-5xl mfont-bold text-abouttext mt-6">
+        <h1 className="text-5xl font-bold text-abouttext mt-6">
            
           {/* <ReactTyped
             strings={["Create", "Connect", "Experience!"]}
