@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaInstagram, FaLinkedin, FaFacebook, FaEnvelope, FaPhone, FaWhatsapp } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaFacebook, FaEnvelope, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 import { FaArrowRightLong,FaXTwitter} from 'react-icons/fa6';
 import tondalogo1 from '../images/tondalogo1.png';
 import  { useRef } from 'react'
@@ -43,7 +43,7 @@ function Footer() {
         <div className="space-y-4">
           <h2 className="text-xl font-bold">Get in touch</h2>
           <div className="flex items-center space-x-2">
-            <FaPhone size={25} />
+            <FaPhoneAlt size={25} />
             <a href="tel:+256758212070">+256 758 212070</a>
           </div>
           <div className="flex items-center space-x-2">

@@ -35,7 +35,7 @@ function SmallCard() {
             </p>
           <div className="flex flex-col justify-center items-center  ">
             <a href="https://apps.apple.com/ug/app/tonda/id6502898505"
-            className=" text-white h-2/4 w-2/4 -m-3 rounded-lg"
+            className=" text-white w-[42%] h-[50%] -m-3 rounded-lg"
             onClick={handleAppStoreClick}
             ><img  src={as} alt="" /></a>
             <a href="https://play.google.com/store/apps/details?id=com.tonda.mobile.app"
