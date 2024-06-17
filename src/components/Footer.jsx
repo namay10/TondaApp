@@ -8,7 +8,7 @@ function Footer() {
   const form =useRef();
     const sendemail=(e)=>{
         e.preventDefault();
-        emailjs.sendForm('service_77e93by', 'template_he0qu1y', e.target, '3CojdPVstX46taHuy')
+        emailjs.sendForm('service_77e93by', 'template_a4jszlw', e.target, '3CojdPVstX46taHuy')
         .then(
             () => {
               console.log('SUCCESS!');
