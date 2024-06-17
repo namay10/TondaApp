@@ -27,11 +27,11 @@ function SmallCard() {
   return (
 
         <div className="bg-card  rounded-xl shadow-lg flex flex-col h-full items-center  w-auto md:flex-1">
-            <h1 className='text-black text-3xl font-sans mt-5'>
+            <h1 className='text-black text-3xl  mt-5'>
                 <b>Get your Tonda App</b>
             </h1>
-            <p className='text-black m-2 text-center text-md font-sans p-1'>
-                Get the latest events and fun activities happening in the kampala on Tonda.
+            <p className='text-black m-2 text-center text-md  p-1'>
+                Get the latest events and fun activities happening in Kampala on Tonda.
             </p>
           <div className="flex flex-col justify-center items-center  ">
             <a href="https://apps.apple.com/ug/app/tonda/id6502898505"
