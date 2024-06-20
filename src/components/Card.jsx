@@ -8,6 +8,7 @@ import s5 from "../images/s5.png";
 import Carousel from "./Caraousel.jsx";
 import { FaWhatsapp } from "react-icons/fa";
 import { BiMessageDetail } from "react-icons/bi";
+import MessgForm from "./MessgForm.jsx"
 
 export const photos = [
   {
@@ -58,6 +59,7 @@ function Card() {
             <BiMessageDetail size={30} />
             
           </button>
+          <MessgForm isVisible={isFormVisible} onClose={handleCloseForm} />
         </div>
       {/* <div className="flex flex-col justify-center items-center space-x-2 mt-4">
         <a href="https://play.google.com/store/apps/details?id=com.tonda.mobile.app"
@@ -69,6 +71,7 @@ function Card() {
         target='_blank'
         >Download for iOS</a>
       </div> */}
+      
     </div>
   );
 }

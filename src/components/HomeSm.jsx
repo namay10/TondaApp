@@ -7,16 +7,17 @@ import { ReactTyped } from 'react-typed';
 import { TypeAnimation } from 'react-type-animation';
 import SmallCard from"./SmallCard.jsx";
 
+
 function HomeSm() {
-  const [isFormVisible, setIsFormVisible] = useState(false);
+  // const [isFormVisible, setIsFormVisible] = useState(false);
 
-  const handleOpenForm = () => {
-    setIsFormVisible(true);
-  };
+  // const handleOpenForm = () => {
+  //   setIsFormVisible(true);
+  // };
 
-  const handleCloseForm = () => {
-    setIsFormVisible(false);
-  };
+  // const handleCloseForm = () => {
+  //   setIsFormVisible(false);
+  // };
   const openwhatsappp=()=>{
     window.open('https://wa.me/+256758212070', '_blank');
   }
@@ -73,7 +74,7 @@ function HomeSm() {
       </div>
      
       
-      <MessgForm isVisible={isFormVisible} onClose={handleCloseForm} />
+      {/* <MessgForm isVisible={isFormVisible} onClose={handleCloseForm} /> */}
     </div>
   );
 }
